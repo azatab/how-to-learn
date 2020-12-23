@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*div, p, section, ul, li {
+/*div, p, section, ul, li, nav {
   border: 2px solid red;
 }*/
 
@@ -267,18 +267,22 @@
 
 .footer {
   background-color: #1f1f1f;
+
 }
 
 .footer__columns {
   min-height: 350px;
-  width: 90%;
   display: flex;
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
-  color: white;
+  width: 90%;
   margin: 0 auto;
-  /*justify-content: space-between;*/
+}
+
+.footer__column {
+  color: white;
+
 }
 
 .footer__column_content_copyright {
@@ -298,7 +302,6 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  /*background-position: 0;*/
 }
 
 .footer__author {
